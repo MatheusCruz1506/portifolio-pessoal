@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-background: #041f31;
+
+  --color-bg-card: #222525;
+
+  --color-text-h2: #d7e5ec;
+  --color-text-p: #bdebea;
+  --color-text-btn: #252728;
+
+  --color-text-green: #00f5a0;
+  --color-text-blue: #00d9f5;
+
+  --font-montserrat-sans: "Montserrat", sans-serif;
+  --font-tinos-serif: "Tinos", serif;
+}
+
+@layer base {
+  * {
+    @apply font-montserrat-sans;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-x {
+    background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  }
+  .bg-gradient-y {
+    background-image: linear-gradient(to top, #00f5a0, #00d9f5);
+  }
+}
