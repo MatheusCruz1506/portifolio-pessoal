@@ -19,7 +19,7 @@ O site foi construído com as seguintes tecnologias principais:
 - JavaScript (Biblioteca/Framework: **React**)  
 - Build/Empacotamento: **Vite**  
 - Linter: **ESLint**  
-- HTML5 & CSS3  
+- Estilização: Talwind CSS
 
 Essas escolhas permitem um ambiente moderno, com recarregamento rápido, ótima integração e produtividade eficiente.
 
