@@ -32,4 +32,4 @@ E-mail: matheus797915@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/matheus-cruz-a426a821b/
 
-GitHub: github.com/MatheusCruz1506/
+GitHub: https://github.com/MatheusCruz1506
