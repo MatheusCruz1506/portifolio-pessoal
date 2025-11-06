@@ -1,16 +1,35 @@
-# React + Vite
+# Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio pessoal!  
+Este repositório reúne o site e os arquivos de apresentação da minha identidade digital.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧑‍💼 Sobre mim
 
-## React Compiler
+Olá! Eu sou **Matheus Cruz**, desenvolvedor web em formação, apaixonado por criar interfaces limpas, funcionais e acessíveis.  
+Aqui apresento meus projetos, habilidades e um pouco sobre minha trajetória.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O site foi construído com as seguintes tecnologias principais:
+
+- JavaScript (Biblioteca/Framework: **React**)  
+- Build/Empacotamento: **Vite**  
+- Linter: **ESLint**  
+- HTML5 & CSS3  
+
+Essas escolhas permitem um ambiente moderno, com recarregamento rápido, ótima integração e produtividade eficiente.
+
+---
+📬 Contato
+
+Se você quiser conversar, colaborar ou apenas dar um “olá”, me encontre em:
+
+E-mail: matheus797915@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/matheus-cruz-a426a821b/
+
+GitHub: github.com/MatheusCruz1506/
