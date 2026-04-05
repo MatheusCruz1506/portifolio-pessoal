@@ -1,0 +1,57 @@
+{
+  "name": "sao-camilo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "host": "npm run dev -- --host",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "update-types": "npx supabase gen types typescript --project-id \"zibqkolgvitgjcchrvrm\" --schema public > src/types/index.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@supabase/supabase-js": "^2.93.3",
+    "@tailwindcss/vite": "^4.1.18",
+    "axios": "^1.13.5",
+    "clsx": "^2.1.1",
+    "i18next": "^25.8.18",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-http-backend": "^3.0.2",
+    "lucide": "^0.575.0",
+    "lucide-react": "^0.564.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.71.1",
+    "react-i18next": "^16.5.8",
+    "react-imask": "^7.6.1",
+    "react-loading-skeleton": "^3.5.0",
+    "react-router-dom": "^7.13.0",
+    "recharts": "^3.8.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@eslint/js": "^9.39.1",
+    "@testing-library/react": "^16.3.2",
+    "@tsconfig/vite-react": "^7.0.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "supabase": "^2.76.16",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import "tailwindcss";
+
+@variant light (&:where(.light, .light *));
+
+@theme {
+  /* ===== CORES PRINCIPAIS ===== */
+
+  /* Vermelho institucional */
+  --color-primary-dark: #4f1213;
+  --color-primary-light: #a92f32;
+  --color-primary-base: #a92f32;
+
+  /* Dourado */
+  --color-gold-dark: #a0693b;
+  --color-gold-light: #f1c26e;
+
+  /* Neutral Black */
+  --color-black-soft: #1b1717;
+  --color-black-deep: #111111;
+
+  /* Cores Temáticas que mudam no Dark Mode */
+  --color-background: var(--bg-app);
+  --color-surface: var(--bg-surface);
+
+  --color-text-primary: var(--text-main);
+  --color-text-secondary: var(--text-muted);
+
+  /* Bordas e superfícies temáticas */
+  --color-border-default: var(--border-default);
+  --color-border-subtle: var(--border-subtle);
+  --color-label: var(--label-color);
+  --color-hover-bg: var(--hover-bg);
+
+  /* Alias retrocompatível */
+  --color-camilo-red: var(--color-primary-light);
+
+  /* ===== STATUS ===== */
+  --color-success: #2e7d32;
+  --color-warning: #f9a825;
+  --color-danger: #c62828;
+
+  /* Fontes */
+  --font-display: "merriweather", serif;
+
+  /* Animações */
+  --animate-slide-in: slide-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --bg-app: #f9fafb;
+    --bg-surface: #ffffff;
+    --text-main: #111111;
+    --text-muted: #666666;
+    --border-default: #d1d5db;
+    --border-subtle: #e5e7eb;
+    --label-color: #374151;
+    --hover-bg: #f3f4f6;
+  }
+
+  .dark {
+    --bg-app: #121212;
+    --bg-surface: #1e1e1e;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --border-default: #374151;
+    --border-subtle: #1f2937;
+    --label-color: #d1d5db;
+    --hover-bg: rgba(55, 65, 81, 0.5);
+    --hover-bg-dark: rgba(55, 65, 81);
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
