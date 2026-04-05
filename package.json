@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "sao-camilo",
+=======
+  "name": "portifoloi-pessoal",
+>>>>>>> e96f3ccaca6b33969908730f936a61e0b7a9c798
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "host": "npm run dev -- --host",
     "dev": "vite",
     "build": "vite build",
@@ -53,5 +58,32 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
+=======
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.16",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.5",
+    "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+>>>>>>> e96f3ccaca6b33969908730f936a61e0b7a9c798
   }
 }
